@@ -1,0 +1,32 @@
+const ADMIN_PATH = '/administrator';
+
+export const routes = {
+    home: '/',
+    login: '/sign-in',
+    register: '/sign-up',
+    forgotPass: '/forgot-password',
+    courses: '/courses',
+    topics: '/topics',
+    learn: '/learn',
+    test: '/test',
+    testDetail: '/test-detail',
+    userProfile: '/user-profile',
+    courseDetail: '/course-detail',
+    addCourse: '/add-course',
+    editCourse: '/edit-course',
+    authorProfile: '/author',
+    activePage: '/active',
+    adminLogin: '/admin-login',
+    admin: {
+        dashboard: ADMIN_PATH + '/dashboard',
+        courses: ADMIN_PATH + '/courses',
+        accounts: ADMIN_PATH + '/accounts',
+        accountDetail: ADMIN_PATH + '/account-detail',
+        topics: ADMIN_PATH + '/topics',
+        courseDetail: ADMIN_PATH + '/course-detail',
+        adminProfile: ADMIN_PATH + '/user-profile',
+        reportCourse: ADMIN_PATH + '/courses-report',
+        reportQuestion: ADMIN_PATH + '/question-report',
+        reportRate: ADMIN_PATH + '/rate-report',
+    },
+};
